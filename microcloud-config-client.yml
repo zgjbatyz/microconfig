@@ -12,7 +12,7 @@ spring:
 eureka: 
   client:
     service-url:
-      defaultZone: http://hsae:tsp@eureka-dev.com:7001/eureka
+      defaultZone: http://hsae:tsp@eureka-7001.com:7001/eureka
 ---
 server:
   port: 8102
@@ -23,4 +23,4 @@ spring:
 eureka: 
   client:
     service-url:
-      defaultZone: http://hsae:tsp@eureka-beta.com:7001/eureka
+      defaultZone: http://hsae:tsp@eureka-7001.com:7001/eureka
