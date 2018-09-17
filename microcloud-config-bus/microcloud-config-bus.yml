@@ -1,0 +1,35 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+server:
+  port: 8201
+spring:
+  profiles: dev
+  application: 
+    name: microcloud-config-client
+eureka: 
+  client:
+    service-url:
+      defaultZone: http://hsae:tsp@eureka-7001.com:7001/eureka
+info:
+  app.name: study-microcloud-dev-1
+  company.name: www.study.cn
+  app.version: v-dev-1.0.0
+ 
+---
+server:
+  port: 8102
+spring:
+  profiles: beta
+  application: 
+    name: microcloud-config-client
+eureka: 
+  client:
+    service-url:
+      defaultZone:  http://hsae:tsp@eureka-7001.com:7001/eureka
+info:
+  app.name: study-microcloud-beta-1
+  company.name: www.studyjava.cn
+  app.version: v-beta-1.0.0
