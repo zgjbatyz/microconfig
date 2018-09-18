@@ -20,7 +20,7 @@ info:
  
 ---
 server:
-  port: 8301
+  port: 8101
 spring:
   profiles: beta
   application: 
