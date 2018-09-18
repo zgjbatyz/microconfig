@@ -32,4 +32,4 @@ eureka:
 info:
   app.name: study-microcloud-beta-1
   company.name: www.studyjava.cn
-  app.version: v-beta-1.0.0
+  app.version: v-beta-1.2.0
