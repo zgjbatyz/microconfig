@@ -16,7 +16,7 @@ eureka:
 info:
   app.name: study-microcloud-dev-1
   company.name: www.study.cn
-  app.version: v-dev-5.0.0
+  app.version: v-dev-6.0.0
  
 ---
 server:
